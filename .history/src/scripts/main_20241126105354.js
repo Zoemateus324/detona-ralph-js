@@ -27,15 +27,8 @@ function countDown() {
 
     if (state.values.currentTime <= 0) {
         clearInterval(state.actions.countDownTimerId);
-        clearInterval(state.actions.timerId);
         alert("Game Over! O seu resultado foi:" + state.values.result);
     }
-}
-
-function playSound() {
-    let audio = new Audio("./src/audios/mixkit-video-game-bomb-alert-2803.wav");
-    audio.volume = 0.5;
-    audio.play();
 }
 
 function randomSquare() {
@@ -57,7 +50,6 @@ function addListenerHitBox() {
                 state.values.result++;
                 state.view.score.textContent = state.values.result;
                 state.values.hitPosition = null;
-                playSound();
             }
         })
     });

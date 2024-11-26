@@ -34,7 +34,6 @@ function countDown() {
 
 function playSound() {
     let audio = new Audio("./src/audios/mixkit-video-game-bomb-alert-2803.wav");
-    audio.volume = 0.5;
     audio.play();
 }
 
