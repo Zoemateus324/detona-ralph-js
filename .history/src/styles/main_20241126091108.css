@@ -2,7 +2,6 @@
     display: flex;
     flex-direction:column;
     height:100vh;
-    background-image:url("../images/wall.jpg");
 }
 
 .menu{
@@ -15,7 +14,6 @@
     width:100%;
     background-color:#000000;
     color:  #ffffff;
-    border-bottom:5px solid gold;
 }
 
 .panel{
@@ -23,6 +21,7 @@
     margin-top:1rem;
     align-items:center;
     justify-content:center;
+    border: 1px solid #ff0000;
 
 }
 .square{
@@ -34,15 +33,4 @@
 .enemy{
     background-image: url("../images/Ralph_8-bits.webp");
     background-size: cover;
-}
-
-.menu-lives {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.menu-time h2:nth-child(2),
-.menu-score h2:nth-child(2){
-    margin-top:10px;
 }

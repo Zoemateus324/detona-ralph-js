@@ -35,14 +35,8 @@
     background-image: url("../images/Ralph_8-bits.webp");
     background-size: cover;
 }
-
 .menu-lives {
     display:flex;
     align-items:center;
     justify-content:center;
-}
-
-.menu-time h2:nth-child(2),
-.menu-score h2:nth-child(2){
-    margin-top:10px;
 }

@@ -1,6 +1,6 @@
 const state = {
     view: {
-        square
+        squa
     },
 
     values: {
